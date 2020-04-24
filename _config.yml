@@ -1,22 +1,25 @@
 title: TERR BLOG
 author: TERR
+lang: zh_CN
 email: 2375452377@qq.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  TERR BLOG
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
   sass_dir: _sass
+
 plainwhite:
   name: TERR
   tagline: IT
   date_format: "%Y %m %d"
   sitemap: true # set to true to generate sitemap.xml content
   analytics_id: UA-164513114-1
+  navigation:
+    - title: Welcome to jekyll
+      url: "/javascript/nodejs/2019/03/23/welcome-to-jekyll.html"
 
   # generate social links in footer
   social_links:
@@ -52,6 +55,18 @@ plainwhite:
 # Build settings
 theme: plainwhite
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+paginate: 1
+paginate_path: "/page:num"
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
 #  - jekyll-feed
