@@ -65,8 +65,8 @@ gitalk:
   clientID: bdedab2e863602531943                            #生成的clientID
   clientSecret: 72f7f0bb7c91a16e8e14785a2fb4c8adf125b064    #生成的clientSecret
   repo: terrluo.github.io    #仓库名称
-  owner: terrluo    #github用户名
-  admin: terrluo
+  owner: 2375452377    #github用户名
+  admin: 2375452377
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
