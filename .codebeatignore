@@ -1,2 +1,9 @@
-js/**
-!js/hux-blog.min.js
+js/animatescroll.min.js
+js/bootstrap.js
+js/bootstrap.min.js
+js/hux-blog.js
+js/jquery.js
+js/jquery.min.js
+js/jquery.nav.js
+js/jquery.tagcloud.js
+js/md5.min.js
