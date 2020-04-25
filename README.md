@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/terrluo/terrluo.github.io.svg?branch=master)](https://travis-ci.org/terrluo/terrluo.github.io)
 [![codebeat badge](https://codebeat.co/badges/def2f655-7f52-4aea-8b2d-3103719b6f79)](https://codebeat.co/projects/github-com-terrluo-terrluo-github-io-master)
 [![GitHub issues](https://img.shields.io/github/issues/terrluo/terrluo.github.io.svg?style=flat)](https://github.com/terrluo/terrluo.github.io/issues)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/terrluo/terrluo.github.io/master/LICENSE)
 [![](https://img.shields.io/github/stars/terrluo/terrluo.github.io.svg?style=social&label=Star)](https://github.com/terrluo/terrluo.github.io)
 [![](https://img.shields.io/github/forks/terrluo/terrluo.github.io.svg?style=social&label=Fork)](https://github.com/terrluo/terrluo.github.io)
 
