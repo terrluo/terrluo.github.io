@@ -27,37 +27,27 @@ chmod u+x pyenv_install.sh
 #!/bin/bash
 version=${1}
 
-f_info(){
-    echo -e "\033[32m$1\033[0m"
-}
-
 if [ ! $version ]
 then
-    f_info "please input version"
     exit 0
 fi
 
 build_cache_path="~/.pyenv/cache"
+
 if [ ! -x $build_cache_path ]
 then
-    f_info "mkdir build cache path"
     mkdir $build_cache_path
 fi
 
 file_name="Python-$version.tar.xz"
 file_path=$build_cache_path/$file_name
 
-f_info "file_path: $file_path"
-
 if [ ! -f $file_path ]
 then
     url="https://npm.taobao.org/mirrors/python/$version/$file_name"
-    f_info "url: $url"
-    f_info "download $file_name to $build_cache_path"
     wget $url -P $build_cache_path
-fi
+fi;
 
-f_info "install $file_name"
 pyenv install $version
 ```
 
