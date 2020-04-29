@@ -193,7 +193,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-	    pip install -r requirements.txt
+        pip install -r requirements.txt
     - name: Run Tests
       run: |
         coverage run manage.py test
