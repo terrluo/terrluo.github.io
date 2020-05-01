@@ -86,6 +86,10 @@ django_demo
 ![](https://raw.githubusercontent.com/terrluo/terrluo.github.io/master/img/2020-04-29-Github-Actions.png)
 
 #### 二、添加代码覆盖率测试
+关联 coveralls
+
+>在 github 的 Marketplace 里搜索 coveralls 选择 Open Source 选项关联 coveralls
+
 安装 coverage
 ```bash
 pip install coverage
