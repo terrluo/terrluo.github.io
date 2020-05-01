@@ -46,7 +46,7 @@ if [ ! -f $file_path ]
 then
     url="https://npm.taobao.org/mirrors/python/$version/$file_name"
     wget $url -P $build_cache_path
-fi;
+fi
 
 pyenv install $version
 ```
