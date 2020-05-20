@@ -32,7 +32,7 @@ then
     exit 0
 fi
 
-build_cache_path="~/.pyenv/cache"
+build_cache_path="$HOME/.pyenv/cache"
 
 if [ ! -x $build_cache_path ]
 then
